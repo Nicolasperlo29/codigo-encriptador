@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background: rgb(190, 210, 216);
+    width: 100%;
+    height: 50px;
+}
+main{
+    background: rgb(190, 210, 216);
+    width: 100%;
+    height: 837px;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background: rgb(190, 210, 216);
+}
+.logo{
+    position: absolute;
+    top: 20px;
+}
+section{
+    width: 40%;
+    height: 100%;
+    background: rgb(190, 210, 216);
+}
+.seccion1{
+    width: 60%;
+}
+.mensaje{
+    position: absolute;
+    left: 230px;
+    top: 100px;
+}
+.botones{
+    text-align: center;
+    margin-top: 250px;
+}
+
+.btnEncriptar{
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 30%;
+    height: 50px;
+    background: rgb(92, 92, 181);
+}
+.btnEncriptar:hover{
+    color: aliceblue;
+}
+.btnDesencriptar{
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 30%;
+    height: 50px;
+    background: rgb(92, 92, 181);
+}
+.btnDesencriptar:hover{
+    color: aliceblue;
+}
+.botonLimpiar{
+    text-align: center;
+    margin-top: 5px;
+}
+.btnLimpiar{
+    font-weight: bold;
+    border-radius: 10px;
+    font-size:15px;
+    width: 10%;
+    height: 30px;
+    background-color: red;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.btnLimpiar:hover{
+    color: aliceblue;
+}
+.btnCopiar{
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 60%;
+    height: 50px;
+    background:  rgb(92, 92, 181);
+    margin-top: 250px;
+}
+.btnCopiar:hover{
+    color: aliceblue;
+}
+.seccion2{ 
+    width: 30%;
+    border-radius: 20px;
+    margin-right: 50px;
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+.imagen-persona{
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+.textoningun{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+}
+.textoingrese{
+    text-align: center;
+    width: 100%;
+    margin-top: 200px;
+}
+.textotarea{
+    font-size: 25px;
+    width: 60%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    resize: none;
+    border-radius: 10px;
+    background: white;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+.textoresultado{
+    max-width: 70%;
+    font-size: 30px;
+}
+.contenedor-resultado{
+    font-size: 25px;
+    padding: 60px;
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+}
+.contenedor-copiar{
+    width: 100%;
+    height: 20%;
+}   
+
+.ocultar{
+    display: none;
+}
